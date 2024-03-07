@@ -9,8 +9,8 @@ export default function Footers() {
     <Footer container>
       <div className="w-full">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-          <div>
-            <Footer.Brand
+          <div className='text-sky-500'>
+            <Footer.Brand className='text-sky-500'
               href="#"
               src="../public/assets/logo.png"
               alt="Flowbite Logo"
@@ -21,8 +21,8 @@ export default function Footers() {
             <div>
               <Footer.Title title="about" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">KH Spo</Footer.Link>
-                <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                <Footer.Link href="#">KH Sport</Footer.Link>
+                <Footer.Link href="#">Sale Sportware</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>

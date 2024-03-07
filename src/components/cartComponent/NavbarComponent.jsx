@@ -15,12 +15,12 @@ export default function Navbars() {
               arrowIcon={false}
               inline
               label={
-                <Avatar alt="User settings" img="../public/assets/taingey.jpg" rounded />
+                <Avatar alt="User settings" img="../public/assets/developer.jpg" rounded />
               }
             >
               <Dropdown.Header>
-                <span className="block text-sm">Ly Taing Ey</span>
-                <span className="block truncate text-sm font-medium">taingey@cstad.com</span>
+                <span className="block text-sm">Pov Sokny</span>
+                <span className="block truncate text-sm font-medium">povsokny@cstad.com</span>
               </Dropdown.Header>
               <Dropdown.Item>Dashboard</Dropdown.Item>
               <Dropdown.Item>Settings</Dropdown.Item>
